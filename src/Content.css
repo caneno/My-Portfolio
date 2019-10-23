@@ -1,0 +1,25 @@
+.content-body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  text-align: center;
+  padding-top: 2em;
+}
+.logo-container a {
+  padding: 1.5em;
+}
+.profile-img {
+  border-radius: 200px;
+  height: 320px;
+  border: 2px solid #fc6d00;
+  margin-left: 11px;
+}
+.git-icon:hover, .linked-icon:hover, .twitt-icon:hover {
+  fill: #fef0e5;
+  transition: .5s;
+}
+

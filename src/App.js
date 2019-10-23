@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Grid, Cell} from 'react-mdl';
+import Navigation from './components/Navigation';
+import Main from './components/Main';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App" style={{width: '100%', height: '100%', margin: 'auto'}}>
+        <Grid className="body-grid demo-grid-2" noSpacing>
+          <Cell className="web-body" col={10}>
+           <Main/>
+          </Cell>
+          <Cell className="web-nav" col={2}>
+            <Navigation/>
+          </Cell>
+        </Grid> 
+      </div>
   );
 }
 

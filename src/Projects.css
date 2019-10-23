@@ -1,0 +1,30 @@
+.pro-container {
+  color: #fef0e5;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none !important;
+}
+.mdl-card {
+  border: 2px solid #fc6d00;
+  border-radius: 20px !important;
+  transition: all 0.2s ease-in-out;
+}
+.mdl-card:hover {
+  transform: scale(1.05);
+}
+.mdl-card__title-text {
+  font-weight: 700 !important;
+  text-shadow: 2px 2px 4px #000000;
+}
+.github-projects {
+  padding: 4px 2px 4px 5px;
+  border-radius: 50%;
+  fill: white;
+}
+.github-projects:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
