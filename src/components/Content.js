@@ -9,9 +9,14 @@ const Content = () => {
     return ( 
         <div className="content-body">
             <div className="body-container">
-                <Typing>
-                    <span style={{color:'white'}}>This span will get typed.</span>
-                    <Typing.Backspace count={20} />
+                <h1>Hello I'm Ray</h1>
+                <Typing >
+                    <h3 style={{color:'white'}}>And I'm here to help you with,<br/>
+                    your Email Development.
+                    <Typing.Backspace count={18} speed={75}/>
+                    Web Development.
+                    </h3>
+                    
                 </Typing>
 
                 <div className="logo-container">

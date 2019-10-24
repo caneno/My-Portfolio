@@ -1,8 +1,8 @@
-
+ 
 .body-grid{
   height: 100%;
 }
 .web-body{
   background: #190A00;
-  height: 669.69px;
+  min-height: 100vh !important
 }
