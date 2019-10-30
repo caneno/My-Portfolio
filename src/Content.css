@@ -23,4 +23,7 @@
   fill: #fef0e5;
   transition: .5s;
 }
+.body-container h1{
+  font-weight: 700;
+}
 

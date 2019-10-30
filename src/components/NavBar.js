@@ -1,9 +1,9 @@
 import React from 'react';
 import {List, ListItem} from 'react-mdl';
-import '../Navigation.css';
+import '../NavBar.css';
 import {Link} from 'react-router-dom';
 
-const Navigation = () => {
+const NavBar = () => {
     return ( 
         <div className="nav-wrapper">
              <List>
@@ -40,4 +40,4 @@ const Navigation = () => {
      );
 }
  
-export default Navigation;
+export default NavBar;

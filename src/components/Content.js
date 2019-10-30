@@ -11,12 +11,17 @@ const Content = () => {
             <div className="body-container">
                 <h1>Hello I'm Ray</h1>
                 <Typing >
-                    <h3 style={{color:'white'}}>And I'm here to help you with,<br/>
-                    your Email Development.
-                    <Typing.Backspace count={18} speed={75}/>
-                    Web Development.
-                    </h3>
+                    <h3 style={{color:'white'}}>
+                        And I'm here to help you with,<br/>
+                        your Web Development.
+                        <Typing.Backspace count={16} speed={75}/>
+                        Email Development and<br/>
+                         Marketing.
+                        <Typing.Backspace count={37} speed={75}/>
+                        Everything you need.
                     
+                    </h3>
+                    <Typing.Reset count={1} delay={3000} />
                 </Typing>
 
                 <div className="logo-container">
