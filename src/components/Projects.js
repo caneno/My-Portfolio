@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../Projects.css';
+import '../styles/Projects.css';
 import GithubIcon from '../Icons/GithubLogo.js';
 import {Grid,Cell,Card,CardTitle,CardText,CardActions,CardMenu,Button} from 'react-mdl';
 
@@ -7,7 +7,13 @@ class Projects extends Component {
     render() { 
         return (
             <div className="pro-container" style={{width: '100%', margin: 'auto'}}>
+                
                 <Grid className="demo-grid-1" align='middle'>
+                    <Cell col={12}>
+                        <div className='prj-header'>
+                            My Work
+                        </div>
+                    </Cell>
                     <Cell col={4} >
                         {/* Promotional card -------------------------------- START */}
                         <Card shadow={0} style={{width: '100%', margin: 'auto'}}>

@@ -1,8 +1,0 @@
-@media only screen and (max-width: 416px) {
-    .drawer-container{
-        display: block !important;
-    }
-    .material-icons{
-        color:white;
-    }
-}

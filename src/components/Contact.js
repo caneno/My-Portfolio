@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import '../Contact.css'
+import '../styles/Contact.css'
 
 class Contact extends Component {
     render() { 
         return (
             <div className='contact-wrapper'>
                 <div className='contact-container'>
-                    <form action="/">
+                    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                         <label>Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+                        <input type="text" id="fname" name="name" placeholder="Your name.." />
 
 
                         <label>Email</label>

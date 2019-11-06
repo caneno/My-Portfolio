@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "../About.css";
+import "../styles/About.css";
 import {Link} from 'react-router-dom';
 
 class About extends Component {
@@ -11,9 +11,9 @@ class About extends Component {
                         <img src="https://res.cloudinary.com/rayray89/image/upload/v1571862290/Portfolio/ray-about_rkfu6x.png" alt='profile'/>
                     </div>
                     <p >
-                        <span>Hello there, I am Ray a web developer,</span> <br/>
+                        <span>Hello there, I am Ray a web developer,</span>
                         with experience in Email development, 
-                        with exellent<br/> project management skills, <br/>
+                        with exellent project management skills, <br/>
                         and strategic design. My background in software development, <br/>
                         and IT makes my work mindful and competitive approach.
                     </p>
@@ -28,11 +28,11 @@ class About extends Component {
                     </p>
                     <p>
                         I am currently working as a Freelance web developer, 
-                        I am always interested on new challenges.<br/>
+                        I am always interested on new challenges.
                         Here are some 
                         <Link to="/projects"> challenges</Link> I recently accomplished,<br/>
                         If you like the type of work I have done and ready to do You can reach out
-                        <Link to="/contact" > Here</Link>. <br/>
+                        <Link to="/contact" > Here</Link>. 
                         Let's make your dream project come True!
                     </p>
                 </div> 

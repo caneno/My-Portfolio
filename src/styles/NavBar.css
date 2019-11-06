@@ -24,3 +24,6 @@
     padding-bottom: 11.85%;
     color: #BBB2AB;
   }
+  .nav-link-active{
+    color: #fc6d00 !important;
+  }
