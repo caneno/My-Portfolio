@@ -8,7 +8,7 @@ class About extends Component {
             <div className="about-container">
                 <div className="about-body">
                     <div className='about-img'>
-                        <img src="https://res.cloudinary.com/rayray89/image/upload/v1571862290/Portfolio/ray-about_rkfu6x.png" alt='profile'/>
+                        <img src="https://res.cloudinary.com/rayray89/image/upload/v1573109774/Portfolio/ray-about-thumb.png" alt='profile'/>
                     </div>
                     <p >
                         <span>Hello there, I am Ray a web developer,</span>

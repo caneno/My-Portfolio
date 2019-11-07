@@ -6,7 +6,7 @@ class Contact extends Component {
         return (
             <div className='contact-wrapper'>
                 <div className='contact-container'>
-                    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true">
                         <label>Name</label>
                         <input type="text" id="fname" name="name" placeholder="Your name.." />
 

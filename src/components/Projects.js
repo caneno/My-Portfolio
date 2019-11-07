@@ -17,7 +17,7 @@ class Projects extends Component {
                     <Cell col={4} >
                         {/* Promotional card -------------------------------- START */}
                         <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://res.cloudinary.com/rayray89/image/upload/v1571437820/Portfolio/promotional-thumb.png) center / cover'}}>Promotional Email</CardTitle>
+                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://res.cloudinary.com/rayray89/image/upload/v1573109774/Portfolio/promotional-thumb.png) center / cover'}}>Promotional Email</CardTitle>
                                 <CardText>
                                     Email Template with live demo and code, showcasing a product being promoted.
                                     Email shows clear call to actions and some mockup ads.
@@ -35,7 +35,7 @@ class Projects extends Component {
                     </Cell>
                     <Cell col={4}>
                     <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://res.cloudinary.com/rayray89/image/upload/v1571438608/Portfolio/transactional-thumb.png) center / cover'}}>Transactional Email</CardTitle>
+                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://res.cloudinary.com/rayray89/image/upload/v1573109774/Portfolio/transactional-thumb.png) center / cover'}}>Transactional Email</CardTitle>
                                 <CardText>
                                     Mockup of a Transational email,Design not done by me. This is just to show
                                     my ability to grab a design and convert it into HTML, that works.
@@ -52,7 +52,7 @@ class Projects extends Component {
                     {/* Newsletter card ------------------------------------------START */}
                     <Cell col={4}>
                     <Card shadow={0} style={{width: '100%', margin: 'auto'}}>
-                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://res.cloudinary.com/rayray89/image/upload/v1571551570/Portfolio/newsletter.png) center / cover'}}>Newsletter Email</CardTitle>
+                            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://res.cloudinary.com/rayray89/image/upload/v1573109774/Portfolio/newsletter-thumb.png) center / cover'}}>Newsletter Email</CardTitle>
                                 <CardText>
                                     Simple Newsletter email design, 
                                     help keep customers informed about upcoming important dates, 
