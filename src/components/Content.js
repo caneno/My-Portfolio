@@ -23,13 +23,13 @@ const Content = () => {
                 </Typing>
 
                 <div className="logo-container">
-                    <a href="https://github.com/caneno?tab=repositories" className="body-logo">
-                        <GithubIcon className="git-icon" width="51px" height="56px" fill="#FC6D00"/>
+                    <a href="https://github.com/caneno?tab=repositories" className="body-logo" target='_blank'>
+                        <GithubIcon className="git-icon" width="51px" height="56px" fill="#FC6D00" />
                     </a>
-                    <a href="/" className="body-logo">
+                    <a href="www.linkedin.com/in/raymundo-vasquez-a71ab1132" className="body-logo" target='_blank'>
                         <LinkedinIcon className="linked-icon" width="45px" height="50px" fill="#FC6D00"/>
                     </a>
-                    <a href="/" className="body-logo">
+                    <a href="https://twitter.com/Nook_O_L_Things" className="body-logo" target='_blank'>
                         <TwitterIcon className="twitt-icon" width="45px" height="50px" fill="#FC6D00"/>
                     </a>
                 </div>
