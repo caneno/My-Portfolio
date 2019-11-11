@@ -1,5 +1,23 @@
-@media only screen and (min-width: 417px){
-    .navDrawer{
-      display:none !important;
-    }
+.MuiDrawer-paperAnchorLeft{
+  left: auto !important;
+  right: 0 !important;
+}
+
+ 
+  a {
+      text-decoration: none;
+      color: #190A00 !important;
+  } 
+  a:hover{
+    text-decoration: underline !important;
+      color: #fc6d00 !important;
+      transition: .3s;
   }
+  
+  .nav-sub-items{
+  }
+  .nav-link-active{
+    color: #fc6d00 !important;
+  }
+
+  

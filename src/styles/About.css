@@ -5,9 +5,9 @@
   align-items: center;
 }
 p {
-    color: white;
-    font-size: 1.5em !important;
-    text-align: left !important;
+    color: white ;
+    font-size: 1.5em ;
+    text-align: left ;
 }
 p a{
   color: #fc6d00 !important;
@@ -29,12 +29,12 @@ p span{
   .about-img>img{
     float: none;
   }
-  p{
+  .about-body>p{
     
     letter-spacing: 1.3px !important;
     padding: 0 15px 0 30px !important;
   }
-  p:last-child{
+  .about-body>p:last-child{
     margin-bottom: 30px;
   }
 }

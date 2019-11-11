@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './styles/App.css';
 import {Grid, Cell} from 'react-mdl';
-import NavBar from './components/NavBar';
 import Main from './components/Main';
 import NavDrawer from './components/NavDrawer';
 
@@ -17,9 +16,9 @@ class App extends Component {
            <Main/>
            
           </Cell>
-          <Cell className="web-nav" col={2} hidePhone>
+          {/* <Cell className="web-nav" col={2} hidePhone>
             <NavBar/>
-          </Cell>
+          </Cell> */}
         </Grid> 
       </div>
      );
